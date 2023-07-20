@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de consultas</title>
+    <!-- stylesheet  -->
+    <!-- <link rel="stylesheet" href="css/stylesheet.css"> -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/StudioKonKon/bootstrap-konkon@1.3.0-beta/scss/app/_variables.scss">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/StudioKonKon/bootstrap-konkon@1.3.0-beta/scss/_theme-variables.scss">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/scss/_variables.scss">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/material-design-iconic-font@2.2.0/dist/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/StudioKonKon/bootstrap-konkon@1.3.0-beta/dist/css/studio-konkon-app.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/StudioKonKon/bootstrap-konkon@1.3.0-beta/scss/_variables.scss">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/StudioKonKon/bootstrap-konkon@1.3.0-beta/dist/css/studio-konkon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/scss/_functions.scss">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/StudioKonKon/bootstrap-konkon@1.3.0-beta/dist/css/addons/email-template.min.css">
+</head>
+
+<body>
+    <!-- ========== Start navbar ========== -->
+    <header>
+        <nav class="navbar-1">
+            <div class="container">
+                <div class="nav">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                    <div class="right-menu">
+                        <button class="btn-style">Agendar Consultas</button>
+                        <button class="Cerrar">Cerrar sesión</button>
+                    </div>
+                </div>
+
+                <div class="be-navbar-header">
+                    <img src="images/menu.png" alt="" class="nav-link be-toggle-left-sidebar" href="#"
+                        id="left-sidebar-toggle"><span class="icon zmdi zmdi-menu">
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+    <!-- ========== End navbar ========== -->
+
+    <!-- ========== Start slide-menu-bar ========== -->
+    <section class="slider">
+        <div class="be-left-sidebar" id="left-sidebar">
+            <div class="left-sidebar-wrapper">
+                <a class="left-sidebar-toggle" href="#">Studio KonKon</a>
+                <div class="left-sidebar-spacer">
+                    <div class="left-sidebar-scroll">
+                        <div class="left-sidebar-content">
+
+                            <ul class="sidebar-elements">
+                                <div class="logo-1">
+                                    <img src="images/logo-1.png" class="img-1" alt="">
+                                    <div class="text">
+                                        <h4>Clínica Juárez</h4>
+                                        <span>@ClínicaJuarez</span><br>
+                                        <img src="images/line.png" class="img-2" alt="">
+                                        <h3><strong> Plan Medizona Clínicas </strong></h3>
+                                        <p>Tu plan vence el 20/08/2023</p>
+                                    </div>
+                                </div>
+                                <li class="style">
+                                    <img src="images/time.png" alt="">
+                                    <span>Agenda de Consultas</span>
+                                </li>
+
+
+
+                                <li class="parent edit">
+                                    <a href="#">
+                                        <img src="images/Finanzas.png" alt="">
+                                        <span class="text">Finanzas</span>
+                                        <img src="images/arrow.png" alt="">
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="parent level-a1">
+                                            <a href="#"><span class="text">Level 1</span></a>
+                                        </li>
+                                        <li class="parent level-b1">
+                                            <a href="#"><span class="text">Level 1</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="parent edit">
+                                    <a href="#">
+                                        <img src="images/Inventario.png" alt="" style="height: 32px ; width: 32px;">
+                                        <span class="text">Inventario</span>
+                                        <img src="images/arrow.png" alt="">
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="parent level-a1">
+                                            <a href="#"><span class="text">Level 1</span></a>
+                                        </li>
+                                        <li class="parent level-b1">
+                                            <a href="#"><span class="text">Level 1</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="parent edit">
+                                    <a href="#">
+                                        <img src="images/image 7.png">
+                                        <span class="text">Engermería</span>
+                                        <img src="images/arrow.png" alt="">
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="parent level-a1">
+                                            <a href="#"><span class="text">Level 1</span></a>
+                                        </li>
+                                        <li class="parent level-b1">
+                                            <a href="#"><span class="text">Level 1</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+
+
+
+                                <li class="parent edit">
+                                    <a href="#">
+                                        <img src="images/mail.png">
+                                        <span class="text">Email Marketing</span>
+                                    </a>
+                                </li>
+
+
+
+                                <li class="parent edit">
+                                    <a href="#">
+                                        <img src="images/es.png">
+                                        <span class="text">Estadísticas</span>
+                                        <img src="images/arrow.png" alt="">
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li class="parent level-a1">
+                                            <a href="#"><span class="text">Level 1</span></a>
+                                        </li>
+                                        <li class="parent level-b1">
+                                            <a href="#"><span class="text">Level 1</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+
+
+                                <li class="parent edit">
+                                    <a href="#">
+                                        <img src="images/co.png">
+                                        <span class="text">Comisiones</span>
+                                    </a>
+                                </li>
+
+                                <li class="parent edit">
+                                    <a href="#">
+                                        <img src="images/pa.png">
+                                        <span class="text">Paquetes</span>
+                                    </a>
+                                </li>
+
+                                <li class="parent edit">
+                                    <a href="#">
+                                        <img src="images/co.png">
+                                        <span class="text">Configuración</span>
+                                    </a>
+                                </li>
+
+
+
+
+
+
+
+
+
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-widget" id="user_progress">
+                    <div class="progress-data"><span class="progress-value">1645 / 2000</span><span class="name">Level
+                            3</span></div>
+                    <div class="progress">
+                        <div class="progress-bar" style="width:80%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== End slide-menu-bar ========== -->
+    <div class="border p-5">
+
+    </div>
+
+    <!-- js file  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/bootstrap.bundle.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        console.clear();
+        // TODO:
+        //   [/] - Sidebar object/init
+        //   [/] - Sidebar open/close events
+        //   [/] - Sidebar toggle events
+        //   [/] - Menu toggle events
+        //   [/] - Fix parent menu falsely closing (look again at jQuery code then re-translate)
+        //   [ ] - Add auto open on submenus for the first found active item.
+
+
+
+        (function (global, factory) {
+
+            typeof (exports) === "object" && typeof (module) !== "undefined" ? module.exports = factory() :
+                typeof (define) === "function" && define.amd ? define(factory) : (
+                    global = typeof (globalThis) !== "undefined" ? globalThis :
+                        global || self, global.Sidebar = factory()
+                );
+
+        }(this, (function () {
+            "use strict";
+
+            // "version": "1.1.2",
+            // "bootstrap-version": "5.1.0",
+
+            var defaultClasses = {
+                "sidebar": "be-left-sidebar",
+                "active": "active",
+                "animate": "be-animate",
+                "offcanvas": "be-offcanvas-menu",
+                "open": "open",
+                "toggle": "be-toggle-left-sidebar",
+                "component": "",
+                "elements": "sidebar-elements",
+                "wrapper": "be-wrapper",
+                "collapsed": "be-collapsible-sidebar-collapsed"
+            };
+
+            var defaultSelectors = {
+                "item": "a",
+                "parent": "li",
+                "submenu": "ul"
+            };
+
+            // While Math.random() may have a high chance of producing 
+            // duplicates, we are not using it for databases.
+            // For our usage, it's unlikely to cause any conflicts.
+            function uid(seperator) {
+                return [
+                    "s",
+                    Date.now().toString(36),
+                    Math.random().toString(36).substring(2)
+                ].join(seperator ? seperator : "");
+            }
+
+            // Our main function for creating the Sidebar
+            function _Sidebar(selector, classes, selectors) {
+                classes = (typeof (classes) === "object") ? classes : {};
+                selectors = (typeof (selectors) === "object") ? selectors : {};
+                this.sidebar = document.querySelector(selector);
+                this.classes = {};
+                this.isOpen = false;
+
+                if (!this.sidebar) {
+                    throw new Error("No sidebar found");
+                    return;
+                }
+
+                // here, default classes can be overridden
+                this.classes = Object.assign({}, defaultClasses, classes);
+                this.selectors = Object.assign({}, defaultSelectors, selectors);
+
+                // The sidebar and buttons need a parent class
+                // to prevent sidebar from closing but also prevent
+                // toggles from responing twice (i.e: immediate open/close)
+                if (this.classes.component == "") {
+                    this.classes.component = "skk-sidebar-" + uid();
+                }
+
+                this.sidebar.classList.add(this.classes.component);
+                this.isOpen = this.sidebar.classList.contains(this.classes.open);
+
+                // make sure our classes are available
+                document.body.classList.add(
+                    this.classes.animate,
+                    this.classes.offcanvas
+                );
+
+                return this.init();
+            }
+
+            // ----- functions
+
+            // start by creating the relevent event listeners
+            // and other options
+            function init() {
+                var activeItem = this.sidebar.querySelector("." + this.classes.active),
+                    activeMenu = (
+                        activeItem &&
+                        activeItem.parentElement.closest(
+                            "." + this.classes.elements + " " + this.selectors.parent
+                        )
+                    );
+
+                // bind $this to events
+                this.events.open = this.open.bind(this);
+                this.events.close = this.close.bind(this);
+                this.events.toggle = this.toggle.bind(this);
+                this.events.menuToggle = this.menuToggle.bind(this);
+
+                // Add event listeners
+                this.sidebar.addEventListener("click", this.events.menuToggle, false);
+                document.addEventListener("mousedown", this.events.close, false);
+                document.addEventListener("touchstart", this.events.close, false);
+
+                // Auto open any active submenus
+                //activeMenu && this.menuOpen(activeMenu, true);
+                //this.menuOpen(activeMenu, true)
+
+                return this;
+            }
+
+            // START: sidebar events
+            function close(event) {
+                if (
+                    typeof (event) == "undefined" ||
+                    !event.target.closest("." + this.classes.component)
+                ) {
+                    this.sidebar.classList.remove(this.classes.open);
+                    this.isOpen = false;
+                }
+            }
+
+            function open() {
+                this.sidebar.classList.add(this.classes.open);
+                this.isOpen = true;
+            }
+
+            function toggle(event) {
+                this.isOpen = this.sidebar.classList.toggle(this.classes.open);
+            }
+            // END: sidebar events
+
+
+            // START: sidebar menu events
+            function menuToggle(event) {
+                var $el = event.target.closest(
+                    "." + this.classes.elements + " " + this.selectors.item
+                ),
+                    $li = $el && $el.parentElement || null,
+                    $subMenu = (
+                        $li &&
+                        $li.querySelector(
+                            ":scope > " + this.selectors.submenu
+                        ) || null
+                    );
+
+                if (!$li) { return; }
+
+                if ($subMenu) {
+                    event.stopPropagation();
+                    event.preventDefault();
+                }
+
+                !$li.classList.contains(this.classes.open) ?
+                    this.menuOpen($li, $subMenu) : this.menuClose($li);
+            }
+
+            // Open selected item and close all other opened items
+            function menuOpen($li, $subMenu) {
+                var parent = $li.parentElement,
+                    itemsOpen = (
+                        parent &&
+                        parent.querySelectorAll(
+                            this.selectors.parent + "." + this.classes.open
+                        ) || []
+                    );
+
+                itemsOpen.forEach(this.menuClose, this);
+                $subMenu && $li.classList.add(this.classes.open);
+            }
+
+            function menuClose($li) {
+                $li.classList.remove(this.classes.open);
+            }
+            // END: sidebar menu events
+
+            // A way of capturing events for interacting with the sidebar
+            function createToggle(selector) {
+                var element = document.querySelector(selector);
+
+                if (element) {
+                    // prevent propagation issues with our $document events
+                    element.classList.add(this.classes.component);
+                    element.addEventListener("click", this.events.toggle, false);
+                    this.userToggles.push(element);
+                }
+
+                return {
+                    element: element,
+                    sidebar: this
+                };
+            }
+
+            // Clear all events and references associated with
+            // our sidebar component. Any created objects will need to be
+            // cleared seperately for proper garbage collection.
+            function destroy() {
+                var $this = this,
+                    userToggles = this.userToggles;
+
+
+                this.sidebar.removeEventListener("click", this.events.menuToggle, false);
+                document.removeEventListener("mousedown", this.events.close, false);
+                document.removeEventListener("touchstart", this.events.close, false);
+
+                this.userToggles.forEach(function (element) {
+                    if (element) {
+                        element.removeEventListener("click", $this.events.toggle, false);
+                    }
+                });
+
+                this.sidebar = null;
+                this.userToggles = [];
+                this.events = {};
+
+                return;
+            }
+
+            // prototypes
+            _Sidebar.prototype.userToggles = [];
+            _Sidebar.prototype.events = {};
+
+            _Sidebar.prototype.init = init;
+            _Sidebar.prototype.open = open;
+            _Sidebar.prototype.close = close;
+            _Sidebar.prototype.toggle = toggle;
+            _Sidebar.prototype.menuOpen = menuOpen;
+            _Sidebar.prototype.menuClose = menuClose;
+            _Sidebar.prototype.menuToggle = menuToggle;
+            _Sidebar.prototype.createToggle = createToggle;
+
+            _Sidebar.prototype.destroy = destroy;
+
+            return _Sidebar;
+
+        })));
+
+
+
+        // ----- Testing our code #1
+
+        var mySidebar = new Sidebar("#left-sidebar");
+        mySidebar.createToggle("#left-sidebar-toggle");
+
+        mySidebar.open();
+
+//console.log(mySidebar);
+
+    </script>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Montserrat:wght@500&family=Roboto&display=swap');
+
+:root {
+    --bg1-color: #34367F;
+    --btn1-color: #34367F;
+    --btn2-color: #ED7023;
+    --boxs-color: #F7D4BE;
+    --text1-color: #F7D4BE;
+    --text2-color: #ED7023;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.be-top-header .be-navbar-header .navbar-brand {
+    background-image: url("https://res.cloudinary.com/demo/image/upload/q_auto/v1652633905/log_jn14lj.png");
+}
+
+.be-color-header .be-top-header .be-navbar-header .navbar-brand {
+    background-image: url("https://res.cloudinary.com/demo/image/upload/q_auto/v1652633905/log_jn14lj.png");
+}
+
+
+.be-left-sidebar,
+.left-sidebar-scroll {
+    overscroll-behavior: contain !important;
+}
+
+
+/** Scrollbars Style **/
+
+.left-sidebar-scroll {
+    overflow-y: auto !important;
+
+    &::-webkit-scrollbar {
+        display: block;
+        width: 10px;
+        height: 100%;
+        transition: background-color .2s linear, opacity .2s linear;
+        -webkit-transition: background-color .2s linear, opacity .2s linear;
+        background-color: transparent;
+    }
+
+    &::-webkit-scrollbar-track-piece {
+        background-color: #eee;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #aaa;
+        background-clip: padding-box;
+        border: solid 2px transparent;
+        border-radius: 6px;
+    }
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+}
+
+header {
+    background: #FFF;
+    padding-bottom: 3px;
+    z-index: 777 !important;
+    box-shadow: 0px 3px 10px 0px #B0B0B0;
+}
+
+header .right-menu {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .btn-style {
+    padding: 7px 45px;
+    flex-shrink: 0;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(180deg, #D28CBC 0%, #34367F 100%);
+}
+
+header .Cerrar {
+    padding: 7px 25px;
+    border: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    flex-shrink: 0;
+    background: #EE7421;
+    border-radius: 5px;
+}
+
+.be-left-sidebar.open {
+    left: 0;
+    z-index: -3 !important;
+}
+
+.be-navbar-header {
+  margin-top: -70px;
+  margin-left: -70px;
+}
+
+.be-offcanvas-menu .be-left-sidebar {
+    top: 90px !important;
+}
+
+.be-left-sidebar.open {
+    background-color: #FCE2D3 !important;
+    min-width: 400px !important;
+}
+
+.slider .logo-1 .img-1 {
+    margin: auto;
+    display: block;
+    width: 171px;
+    height: 163px;
+    object-fit: contain;
+}
+
+.slider .logo-1 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.slider .logo-1 .text h4 {
+    color: var(--bg1-color);
+    font-size: 24px;
+    padding-top: 6px;
+    line-height: 14px;
+}
+
+.slider .logo-1 .text span {
+    color: #34367F;
+    font-size: 16px;
+}
+
+.slider .logo-1 .img-2 {
+    height: 3px;
+    width: 60%;
+}
+
+.slider .logo-1 h3 {
+    color: #34367F;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 18px;
+    font-weight: 800 !important;
+    padding-top: 10px;
+    line-height: 13px;
+}
+
+.slider .logo-1 p {
+    color: #34367F;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 112.5% */
+}
+
+.slider .style {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 10px;
+    background-color: var(--bg1-color);
+    color: white;
+    max-width: 395px;
+    min-height: 50px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.slider .style span {
+    color: #FFF;
+    font-size: 17px;
+}
+
+.be-left-sidebar .sidebar-elements li.parent>a:after {
+    content: "" !important;
+    float: right;
+    font-family: Material-Design-Iconic-Font;
+    font-size: 1.615rem;
+    margin-left: 0.692rem;
+}
+
+.slider .edit {
+    justify-content: start;
+    gap: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 10px;
+    background-color: #F7D4BE !important;
+    color: white;
+    max-width: 395px;
+    min-height: 50px;
+    padding-left: 20px;
+    margin-top: 6px;
+}
+
+.slider .edit:focus {
+    background-color: #F7D4BE !important;
+
+}
+
+.be-left-sidebar .sidebar-elements>li ul {
+    background-color: #F7D4BE !important;
+
+}
+
+.be-left-sidebar .sidebar-elements>li ul {
+    background-color: #F7D4BE !important;
+
+}
+
+.be-left-sidebar .sidebar-elements>li ul:focus {
+    background-color: #F7D4BE !important;
+
+}
+
+.be-left-sidebar .sidebar-elements>li>a:hover {
+    background-color: #F7D4BE !important;
+
+}
+
+.be-left-sidebar .sidebar-elements li>a {
+    display: flex !important;
+    align-items: center !important;
+    gap: 22px;
+}
+
+.be-left-sidebar .sidebar-elements>li>a {
+    padding: 0rem !important;
+}
+
+
+.be-left-sidebar .sidebar-elements li>a>span.text {
+    color: #34367F;
+    font-size: 18px;
+}
+
+.be-left-sidebar .sidebar-elements li>a>span.text:hover {
+    color: #34367F;
+}
+
+
+.be-left-sidebar .sidebar-elements>li>ul {
+    border-top: 0px solid rgb(211, 226, 252) !important;
+    border-bottom: 0px solid rgb(211, 226, 252) !important;
+}
+
+.be-left-sidebar .sidebar-elements>li ul li>a:hover {
+    background-color: transparent !important;
+}
+.zmdi-menu:before {
+  content: '' !important;
+}
+/***** End header *****/
+    </style>
+    
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+@media (max-width: 1399.98px) {}
+
+
+@media (max-width: 1199.98px) {
+    .section-1 .Agenda::before {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    table {
+        width: 100%;
+    }
+
+    .section-1 .style {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 60px;
+    }
+
+    .section-1 .margin {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    header .nav {
+        flex-wrap: wrap;
+        grid-area: 25px;
+    }
+
+    header .btn-style {
+        padding: 7px 16px;
+    }
+
+    .section-1 .Agenda::before {
+        left: 0%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    header .Cerrar {
+        padding: 7px 13px;
+        font-size: 15px;
+    }
+
+    .logo img {
+        width: 140px;
+    }
+
+    header .btn-style {
+        padding: 7px 7px;
+        font-size: 15px;
+        margin-left: 3px;
+    }
+
+    header .nav {
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 12px;
+        justify-content: center;
+    }
+
+    .section-1 .Agenda {
+        font-size: 24px;
+    }
+
+    .section-1 .margin span {
+        font-size: 18px;
+        color: var(--bg1-color);
+        font-weight: 700;
+        height: 65px;
+        display: flex;
+        min-width: 90px;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #f2f2f2;
+    }
+
+    .section-1 .margin {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .section-1 .style .main-box {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .section-1 .style .table-style img {
+        padding: 1px;
+        margin-top: 9px;
+    }
+
+    .section-1 .style {
+        margin-top: 32px;
+    }
+
+    .section-1 .style {
+        padding-right: 2px;
+    }
+
+    table {
+        display: block;
+        overflow: scroll;
+        overflow-x: auto;
+        overflow-y: scroll;
+    }
+
+    .section-1 .style table td {
+        height: 54px;
+        padding: 3px;
+        font-size: 10px !important;
+    }
+
+    .slide-menu .offcanvas.offcanvas-start {
+        top: 120px !important;
+        width: 100%;
+        max-width: -webkit-fill-available;
+    }
+
+    .slide-menu .logo-1 .img-1 {
+        width: 152px;
+        height: 150px;
+    }
+
+    .slide-menu .logo-1 h3 {
+        padding-top: 4px;
+    }
+
+    .slide-menu .logo-1 {
+        padding-bottom: 5px;
+    }
+
+    .dropdown-toggle {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 20px;
+        margin-top: 6px;
+    }
+
+    .dropdown-toggle .padding {
+        margin-left: 95px;
+    }
+
+    .slide-menu .style {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .slide-menu .img-box-1 {
+        position: absolute;
+        left: 83% !important;
+        top: 19%;
+    }
+    .btn-close{
+        display: block !important;
+    }
+}
