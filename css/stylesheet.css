@@ -232,15 +232,15 @@
       position: relative;
   }
 
-  .section-1 .Agenda::before {
-      position: absolute;
-      content: '';
-      width: 1531px;
-      height: 4px;
-      bottom: -55%;
-      left: -8%;
-      background: linear-gradient(90deg, #34367F 0%, #FB92F5 51.56%, #FD8E34 99.78%);
-  }
+ .section-1 .Agenda::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    bottom: -55%;
+    left: -8%;
+    background: linear-gradient(90deg, #34367F 0%, #FB92F5 51.56%, #FD8E34 99.78%);
+}
 
   .section-1 .style-box {
       margin-top: 2px;
